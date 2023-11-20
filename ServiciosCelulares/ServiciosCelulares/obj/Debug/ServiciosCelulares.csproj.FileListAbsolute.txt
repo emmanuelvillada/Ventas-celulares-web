@@ -1,0 +1,460 @@
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\ServiciosCelulares.dll.config
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\ServiciosCelulares.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\ServiciosCelulares.pdb
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csc.exe
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csc.exe.config
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csc.rsp
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csi.exe
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csi.exe.config
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csi.rsp
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.AppContext.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Console.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.Compression.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Net.Http.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Net.Sockets.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.ValueTuple.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.XPath.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\vbc.exe
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\vbc.exe.config
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\vbc.rsp
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\VBCSCompiler.exe
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Antlr3.Runtime.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.SqlServer.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.Bson.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Buffers.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Memory.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Net.Http.Formatting.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Numerics.Vectors.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Cors.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Helpers.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.Cors.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.WebHost.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Mvc.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Optimization.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Razor.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Deployment.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Razor.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\WebGrease.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.SqlServer.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.Bson.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Buffers.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Memory.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Net.Http.Formatting.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Numerics.Vectors.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Helpers.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.Cors.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.WebHost.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Mvc.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Razor.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Deployment.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Razor.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Optimization.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Antlr3.Runtime.pdb
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Helpers.resources.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Http.resources.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Mvc.resources.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Razor.resources.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.WebPages.resources.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Optimization.resources.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.csproj.AssemblyReference.cache
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.csproj.CoreCompileInputs.cache
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.csproj.CopyComplete
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.dll
+C:\Users\salak401\Desktop\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.pdb
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\ServiciosCelulares.dll.config
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\ServiciosCelulares.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\ServiciosCelulares.pdb
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csc.exe
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csc.exe.config
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csc.rsp
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csi.exe
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csi.exe.config
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csi.rsp
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.Managed.Core.targets
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.AppContext.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Collections.Immutable.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Console.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Globalization.Calendars.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.Compression.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.FileSystem.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Net.Http.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Net.Sockets.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Reflection.Metadata.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.ValueTuple.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.XmlDocument.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.XPath.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\vbc.exe
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\vbc.exe.config
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\vbc.rsp
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\VBCSCompiler.exe
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\roslyn\VBCSCompiler.exe.config
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\Antlr3.Runtime.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.SqlServer.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\Microsoft.Web.Infrastructure.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.Bson.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Buffers.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Memory.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Net.Http.Formatting.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Numerics.Vectors.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Threading.Tasks.Extensions.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Cors.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Helpers.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.Cors.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.WebHost.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Mvc.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Optimization.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Razor.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Deployment.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Razor.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\WebGrease.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.SqlServer.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.Bson.pdb
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.Bson.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Buffers.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Memory.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Net.Http.Formatting.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Numerics.Vectors.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Threading.Tasks.Extensions.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Helpers.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.Cors.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.WebHost.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Mvc.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Razor.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Deployment.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Razor.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Optimization.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\Antlr3.Runtime.pdb
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\es\System.Net.Http.Formatting.resources.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Helpers.resources.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Http.resources.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Http.WebHost.resources.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Mvc.resources.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Razor.resources.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.WebPages.resources.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Optimization.resources.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.csproj.AssemblyReference.cache
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.csproj.CoreCompileInputs.cache
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.csproj.CopyComplete
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.dll
+D:\APLICACIONES Y SERVICIOS WEB\Trabajo Celulares\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.pdb
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\ServiciosCelulares.dll.config
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\ServiciosCelulares.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\ServiciosCelulares.pdb
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csc.exe
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csc.exe.config
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csc.rsp
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csi.exe
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csi.exe.config
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csi.rsp
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.AppContext.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Console.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.Compression.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Net.Http.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Net.Sockets.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.ValueTuple.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.XPath.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\vbc.exe
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\vbc.exe.config
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\vbc.rsp
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\VBCSCompiler.exe
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Antlr3.Runtime.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.SqlServer.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.Bson.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Buffers.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Memory.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Net.Http.Formatting.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Numerics.Vectors.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Cors.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Helpers.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.Cors.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.WebHost.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Mvc.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Optimization.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Razor.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Deployment.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Razor.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\WebGrease.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.SqlServer.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.Bson.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Buffers.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Memory.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Net.Http.Formatting.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Numerics.Vectors.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Helpers.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.Cors.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.WebHost.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Mvc.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Razor.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Deployment.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Razor.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Optimization.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Antlr3.Runtime.pdb
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Helpers.resources.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Http.resources.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Mvc.resources.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Razor.resources.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.WebPages.resources.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Optimization.resources.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.csproj.AssemblyReference.cache
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.csproj.CoreCompileInputs.cache
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.csproj.CopyComplete
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.dll
+C:\Users\salak303\Desktop\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.pdb
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\ServiciosCelulares.dll.config
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\ServiciosCelulares.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\ServiciosCelulares.pdb
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csc.exe
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csc.exe.config
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csc.rsp
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csi.exe
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csi.exe.config
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\csi.rsp
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.Managed.Core.targets
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.AppContext.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Collections.Immutable.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Console.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Globalization.Calendars.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.Compression.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.FileSystem.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Net.Http.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Net.Sockets.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Reflection.Metadata.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.ValueTuple.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.XmlDocument.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.XPath.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\vbc.exe
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\vbc.exe.config
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\vbc.rsp
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\VBCSCompiler.exe
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\roslyn\VBCSCompiler.exe.config
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\Antlr3.Runtime.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.SqlServer.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\Microsoft.Web.Infrastructure.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.Bson.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Buffers.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Memory.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Net.Http.Formatting.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Numerics.Vectors.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Threading.Tasks.Extensions.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Cors.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Helpers.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.Cors.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.WebHost.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Mvc.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Optimization.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Razor.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Deployment.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Razor.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\WebGrease.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\EntityFramework.SqlServer.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.Bson.pdb
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\Newtonsoft.Json.Bson.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Buffers.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Memory.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Net.Http.Formatting.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Numerics.Vectors.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Threading.Tasks.Extensions.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Helpers.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.Cors.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Http.WebHost.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Mvc.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Razor.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Deployment.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.WebPages.Razor.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\System.Web.Optimization.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\Antlr3.Runtime.pdb
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\es\System.Net.Http.Formatting.resources.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Helpers.resources.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Http.resources.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Http.WebHost.resources.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Mvc.resources.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Razor.resources.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.WebPages.resources.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\bin\es\System.Web.Optimization.resources.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.csproj.AssemblyReference.cache
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.csproj.CoreCompileInputs.cache
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.csproj.CopyComplete
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.dll
+E:\APLICACIONES Y SERVICIOS WEB\Trabajo aplics\ServiciosCelulares\ServiciosCelulares\obj\Debug\ServiciosCelulares.pdb

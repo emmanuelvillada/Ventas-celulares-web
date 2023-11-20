@@ -1,0 +1,1171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="CELULARESModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CelularReparacion">
+          <Key>
+            <PropertyRef Name="CelularReparacionID" />
+          </Key>
+          <Property Name="CelularReparacionID" Type="int" Nullable="false" />
+          <Property Name="ModeloID" Type="int" />
+          <Property Name="Descripcion" Type="varchar" MaxLength="255" />
+          <Property Name="PrecioVenta" Type="decimal" Precision="10" Scale="2" />
+        </EntityType>
+        <EntityType Name="Clientes">
+          <Key>
+            <PropertyRef Name="ClienteID" />
+          </Key>
+          <Property Name="ClienteID" Type="int" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="255" />
+          <Property Name="Apellido" Type="varchar" MaxLength="255" />
+          <Property Name="Direccion" Type="varchar" MaxLength="255" />
+          <Property Name="Telefono" Type="varchar" MaxLength="15" />
+          <Property Name="CorreoElectronico" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="DetalleVenta">
+          <Key>
+            <PropertyRef Name="DetalleVentaID" />
+          </Key>
+          <Property Name="DetalleVentaID" Type="int" Nullable="false" />
+          <Property Name="ProductoID" Type="int" />
+          <Property Name="VentaID" Type="int" />
+        </EntityType>
+        <EntityType Name="Empleados">
+          <Key>
+            <PropertyRef Name="EmpleadoID" />
+          </Key>
+          <Property Name="EmpleadoID" Type="int" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="255" />
+          <Property Name="Apellido" Type="varchar" MaxLength="255" />
+          <Property Name="Puesto" Type="varchar" MaxLength="255" />
+          <Property Name="FechaContratacion" Type="date" />
+          <Property Name="Salario" Type="decimal" Precision="10" Scale="2" />
+        </EntityType>
+        <EntityType Name="Garantias">
+          <Key>
+            <PropertyRef Name="GarantiaID" />
+          </Key>
+          <Property Name="GarantiaID" Type="int" Nullable="false" />
+          <Property Name="ClienteID" Type="int" />
+          <Property Name="ProductoID" Type="int" />
+          <Property Name="FechaInicio" Type="date" />
+          <Property Name="FechaVencimiento" Type="date" />
+          <Property Name="DescripcionGarantia" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="GarantiasReparacion">
+          <Key>
+            <PropertyRef Name="GarantiaReparacionID" />
+          </Key>
+          <Property Name="GarantiaReparacionID" Type="int" Nullable="false" />
+          <Property Name="ClienteID" Type="int" />
+          <Property Name="CelularReparacionID" Type="int" />
+          <Property Name="FechaInicio" Type="date" />
+          <Property Name="FechaVencimiento" Type="date" />
+          <Property Name="DescripcionGarantia" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Inventario">
+          <Key>
+            <PropertyRef Name="InventarioID" />
+          </Key>
+          <Property Name="InventarioID" Type="int" Nullable="false" />
+          <Property Name="ProductoID" Type="int" />
+          <Property Name="ProveedorID" Type="int" />
+          <Property Name="PrecioCompra" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="CantidadInventario" Type="int" />
+        </EntityType>
+        <EntityType Name="MetodoPago">
+          <Key>
+            <PropertyRef Name="MetodoPagoID" />
+          </Key>
+          <Property Name="MetodoPagoID" Type="int" Nullable="false" />
+          <Property Name="TipoMetodoPago" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Modelo">
+          <Key>
+            <PropertyRef Name="ModeloID" />
+          </Key>
+          <Property Name="ModeloID" Type="int" Nullable="false" />
+          <Property Name="Marca" Type="varchar" MaxLength="255" />
+          <Property Name="NombreModelo" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Pagos">
+          <Key>
+            <PropertyRef Name="PagoID" />
+          </Key>
+          <Property Name="PagoID" Type="int" Nullable="false" />
+          <Property Name="VentaID" Type="int" />
+          <Property Name="MetodoPagoID" Type="int" />
+          <Property Name="FechaPago" Type="date" />
+          <Property Name="MontoPago" Type="decimal" Precision="10" Scale="2" />
+        </EntityType>
+        <EntityType Name="ProductoReparacion">
+          <Key>
+            <PropertyRef Name="ProductoReparacionID" />
+          </Key>
+          <Property Name="ProductoReparacionID" Type="int" Nullable="false" />
+          <Property Name="ProductoID" Type="int" />
+          <Property Name="ReparacionID" Type="int" />
+        </EntityType>
+        <EntityType Name="Productos">
+          <Key>
+            <PropertyRef Name="ProductoID" />
+          </Key>
+          <Property Name="ProductoID" Type="int" Nullable="false" />
+          <Property Name="ModeloID" Type="int" />
+          <Property Name="NombreProducto" Type="varchar" MaxLength="255" />
+          <Property Name="Descripcion" Type="varchar" MaxLength="255" />
+          <Property Name="PrecioVenta" Type="decimal" Precision="10" Scale="2" />
+        </EntityType>
+        <EntityType Name="Proveedores">
+          <Key>
+            <PropertyRef Name="ProveedorID" />
+          </Key>
+          <Property Name="ProveedorID" Type="int" Nullable="false" />
+          <Property Name="NombreProveedor" Type="varchar" MaxLength="255" />
+          <Property Name="TelefonoProveedor" Type="varchar" MaxLength="15" />
+          <Property Name="CorreoElectronicoProveedor" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Reparaciones">
+          <Key>
+            <PropertyRef Name="ReparacionID" />
+          </Key>
+          <Property Name="ReparacionID" Type="int" Nullable="false" />
+          <Property Name="ClienteID" Type="int" />
+          <Property Name="CelularReparacionID" Type="int" />
+          <Property Name="EmpleadoID" Type="int" />
+          <Property Name="FechaIngreso" Type="date" />
+          <Property Name="ProblemaReportado" Type="varchar" MaxLength="255" />
+          <Property Name="EstadoReparacion" Type="varchar" MaxLength="255" />
+          <Property Name="CostoReparacion" Type="decimal" Precision="10" Scale="2" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="Ventas">
+          <Key>
+            <PropertyRef Name="VentaID" />
+          </Key>
+          <Property Name="VentaID" Type="int" Nullable="false" />
+          <Property Name="ClienteID" Type="int" />
+          <Property Name="FechaVenta" Type="date" />
+          <Property Name="PrecioVenta" Type="decimal" Precision="10" Scale="2" />
+        </EntityType>
+        <Association Name="FK__CelularRe__Model__3B75D760">
+          <End Role="Modelo" Type="Self.Modelo" Multiplicity="0..1" />
+          <End Role="CelularReparacion" Type="Self.CelularReparacion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Modelo">
+              <PropertyRef Name="ModeloID" />
+            </Principal>
+            <Dependent Role="CelularReparacion">
+              <PropertyRef Name="ModeloID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DetalleVe__Produ__5BE2A6F2">
+          <End Role="Productos" Type="Self.Productos" Multiplicity="0..1" />
+          <End Role="DetalleVenta" Type="Self.DetalleVenta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Productos">
+              <PropertyRef Name="ProductoID" />
+            </Principal>
+            <Dependent Role="DetalleVenta">
+              <PropertyRef Name="ProductoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DetalleVe__Venta__5CD6CB2B">
+          <End Role="Ventas" Type="Self.Ventas" Multiplicity="0..1" />
+          <End Role="DetalleVenta" Type="Self.DetalleVenta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ventas">
+              <PropertyRef Name="VentaID" />
+            </Principal>
+            <Dependent Role="DetalleVenta">
+              <PropertyRef Name="VentaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Garantias__Celul__5629CD9C">
+          <End Role="CelularReparacion" Type="Self.CelularReparacion" Multiplicity="0..1" />
+          <End Role="GarantiasReparacion" Type="Self.GarantiasReparacion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CelularReparacion">
+              <PropertyRef Name="CelularReparacionID" />
+            </Principal>
+            <Dependent Role="GarantiasReparacion">
+              <PropertyRef Name="CelularReparacionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Garantias__Clien__5165187F">
+          <End Role="Clientes" Type="Self.Clientes" Multiplicity="0..1" />
+          <End Role="Garantias" Type="Self.Garantias" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="ClienteID" />
+            </Principal>
+            <Dependent Role="Garantias">
+              <PropertyRef Name="ClienteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Garantias__Clien__5535A963">
+          <End Role="Clientes" Type="Self.Clientes" Multiplicity="0..1" />
+          <End Role="GarantiasReparacion" Type="Self.GarantiasReparacion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="ClienteID" />
+            </Principal>
+            <Dependent Role="GarantiasReparacion">
+              <PropertyRef Name="ClienteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Garantias__Produ__52593CB8">
+          <End Role="Productos" Type="Self.Productos" Multiplicity="0..1" />
+          <End Role="Garantias" Type="Self.Garantias" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Productos">
+              <PropertyRef Name="ProductoID" />
+            </Principal>
+            <Dependent Role="Garantias">
+              <PropertyRef Name="ProductoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Inventari__Produ__4AB81AF0">
+          <End Role="Productos" Type="Self.Productos" Multiplicity="0..1" />
+          <End Role="Inventario" Type="Self.Inventario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Productos">
+              <PropertyRef Name="ProductoID" />
+            </Principal>
+            <Dependent Role="Inventario">
+              <PropertyRef Name="ProductoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Inventari__Prove__49C3F6B7">
+          <End Role="Proveedores" Type="Self.Proveedores" Multiplicity="0..1" />
+          <End Role="Inventario" Type="Self.Inventario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Proveedores">
+              <PropertyRef Name="ProveedorID" />
+            </Principal>
+            <Dependent Role="Inventario">
+              <PropertyRef Name="ProveedorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Pagos__MetodoPag__628FA481">
+          <End Role="MetodoPago" Type="Self.MetodoPago" Multiplicity="0..1" />
+          <End Role="Pagos" Type="Self.Pagos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MetodoPago">
+              <PropertyRef Name="MetodoPagoID" />
+            </Principal>
+            <Dependent Role="Pagos">
+              <PropertyRef Name="MetodoPagoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Pagos__VentaID__619B8048">
+          <End Role="Ventas" Type="Self.Ventas" Multiplicity="0..1" />
+          <End Role="Pagos" Type="Self.Pagos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ventas">
+              <PropertyRef Name="VentaID" />
+            </Principal>
+            <Dependent Role="Pagos">
+              <PropertyRef Name="VentaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductoR__Produ__4D94879B">
+          <End Role="Productos" Type="Self.Productos" Multiplicity="0..1" />
+          <End Role="ProductoReparacion" Type="Self.ProductoReparacion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Productos">
+              <PropertyRef Name="ProductoID" />
+            </Principal>
+            <Dependent Role="ProductoReparacion">
+              <PropertyRef Name="ProductoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductoR__Repar__4E88ABD4">
+          <End Role="Reparaciones" Type="Self.Reparaciones" Multiplicity="0..1" />
+          <End Role="ProductoReparacion" Type="Self.ProductoReparacion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Reparaciones">
+              <PropertyRef Name="ReparacionID" />
+            </Principal>
+            <Dependent Role="ProductoReparacion">
+              <PropertyRef Name="ReparacionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Productos__Model__46E78A0C">
+          <End Role="Modelo" Type="Self.Modelo" Multiplicity="0..1" />
+          <End Role="Productos" Type="Self.Productos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Modelo">
+              <PropertyRef Name="ModeloID" />
+            </Principal>
+            <Dependent Role="Productos">
+              <PropertyRef Name="ModeloID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Reparacio__Celul__412EB0B6">
+          <End Role="CelularReparacion" Type="Self.CelularReparacion" Multiplicity="0..1" />
+          <End Role="Reparaciones" Type="Self.Reparaciones" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CelularReparacion">
+              <PropertyRef Name="CelularReparacionID" />
+            </Principal>
+            <Dependent Role="Reparaciones">
+              <PropertyRef Name="CelularReparacionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Reparacio__Clien__403A8C7D">
+          <End Role="Clientes" Type="Self.Clientes" Multiplicity="0..1" />
+          <End Role="Reparaciones" Type="Self.Reparaciones" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="ClienteID" />
+            </Principal>
+            <Dependent Role="Reparaciones">
+              <PropertyRef Name="ClienteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Reparacio__Emple__4222D4EF">
+          <End Role="Empleados" Type="Self.Empleados" Multiplicity="0..1" />
+          <End Role="Reparaciones" Type="Self.Reparaciones" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empleados">
+              <PropertyRef Name="EmpleadoID" />
+            </Principal>
+            <Dependent Role="Reparaciones">
+              <PropertyRef Name="EmpleadoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Ventas__ClienteI__59063A47">
+          <End Role="Clientes" Type="Self.Clientes" Multiplicity="0..1" />
+          <End Role="Ventas" Type="Self.Ventas" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="ClienteID" />
+            </Principal>
+            <Dependent Role="Ventas">
+              <PropertyRef Name="ClienteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CELULARESModelStoreContainer">
+          <EntitySet Name="CelularReparacion" EntityType="Self.CelularReparacion" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DetalleVenta" EntityType="Self.DetalleVenta" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Empleados" EntityType="Self.Empleados" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Garantias" EntityType="Self.Garantias" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="GarantiasReparacion" EntityType="Self.GarantiasReparacion" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Inventario" EntityType="Self.Inventario" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MetodoPago" EntityType="Self.MetodoPago" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Modelo" EntityType="Self.Modelo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Pagos" EntityType="Self.Pagos" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProductoReparacion" EntityType="Self.ProductoReparacion" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Productos" EntityType="Self.Productos" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Proveedores" EntityType="Self.Proveedores" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Reparaciones" EntityType="Self.Reparaciones" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Ventas" EntityType="Self.Ventas" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__CelularRe__Model__3B75D760" Association="Self.FK__CelularRe__Model__3B75D760">
+            <End Role="Modelo" EntitySet="Modelo" />
+            <End Role="CelularReparacion" EntitySet="CelularReparacion" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DetalleVe__Produ__5BE2A6F2" Association="Self.FK__DetalleVe__Produ__5BE2A6F2">
+            <End Role="Productos" EntitySet="Productos" />
+            <End Role="DetalleVenta" EntitySet="DetalleVenta" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DetalleVe__Venta__5CD6CB2B" Association="Self.FK__DetalleVe__Venta__5CD6CB2B">
+            <End Role="Ventas" EntitySet="Ventas" />
+            <End Role="DetalleVenta" EntitySet="DetalleVenta" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Garantias__Celul__5629CD9C" Association="Self.FK__Garantias__Celul__5629CD9C">
+            <End Role="CelularReparacion" EntitySet="CelularReparacion" />
+            <End Role="GarantiasReparacion" EntitySet="GarantiasReparacion" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Garantias__Clien__5165187F" Association="Self.FK__Garantias__Clien__5165187F">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="Garantias" EntitySet="Garantias" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Garantias__Clien__5535A963" Association="Self.FK__Garantias__Clien__5535A963">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="GarantiasReparacion" EntitySet="GarantiasReparacion" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Garantias__Produ__52593CB8" Association="Self.FK__Garantias__Produ__52593CB8">
+            <End Role="Productos" EntitySet="Productos" />
+            <End Role="Garantias" EntitySet="Garantias" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Inventari__Produ__4AB81AF0" Association="Self.FK__Inventari__Produ__4AB81AF0">
+            <End Role="Productos" EntitySet="Productos" />
+            <End Role="Inventario" EntitySet="Inventario" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Inventari__Prove__49C3F6B7" Association="Self.FK__Inventari__Prove__49C3F6B7">
+            <End Role="Proveedores" EntitySet="Proveedores" />
+            <End Role="Inventario" EntitySet="Inventario" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Pagos__MetodoPag__628FA481" Association="Self.FK__Pagos__MetodoPag__628FA481">
+            <End Role="MetodoPago" EntitySet="MetodoPago" />
+            <End Role="Pagos" EntitySet="Pagos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Pagos__VentaID__619B8048" Association="Self.FK__Pagos__VentaID__619B8048">
+            <End Role="Ventas" EntitySet="Ventas" />
+            <End Role="Pagos" EntitySet="Pagos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductoR__Produ__4D94879B" Association="Self.FK__ProductoR__Produ__4D94879B">
+            <End Role="Productos" EntitySet="Productos" />
+            <End Role="ProductoReparacion" EntitySet="ProductoReparacion" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductoR__Repar__4E88ABD4" Association="Self.FK__ProductoR__Repar__4E88ABD4">
+            <End Role="Reparaciones" EntitySet="Reparaciones" />
+            <End Role="ProductoReparacion" EntitySet="ProductoReparacion" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Productos__Model__46E78A0C" Association="Self.FK__Productos__Model__46E78A0C">
+            <End Role="Modelo" EntitySet="Modelo" />
+            <End Role="Productos" EntitySet="Productos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Reparacio__Celul__412EB0B6" Association="Self.FK__Reparacio__Celul__412EB0B6">
+            <End Role="CelularReparacion" EntitySet="CelularReparacion" />
+            <End Role="Reparaciones" EntitySet="Reparaciones" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Reparacio__Clien__403A8C7D" Association="Self.FK__Reparacio__Clien__403A8C7D">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="Reparaciones" EntitySet="Reparaciones" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Reparacio__Emple__4222D4EF" Association="Self.FK__Reparacio__Emple__4222D4EF">
+            <End Role="Empleados" EntitySet="Empleados" />
+            <End Role="Reparaciones" EntitySet="Reparaciones" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Ventas__ClienteI__59063A47" Association="Self.FK__Ventas__ClienteI__59063A47">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="Ventas" EntitySet="Ventas" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CELULARESModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CelularReparacion">
+          <Key>
+            <PropertyRef Name="CelularReparacionID" />
+          </Key>
+          <Property Name="CelularReparacionID" Type="Int32" Nullable="false" />
+          <Property Name="ModeloID" Type="Int32" />
+          <Property Name="Descripcion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="PrecioVenta" Type="Decimal" Precision="10" Scale="2" />
+          <NavigationProperty Name="Modelo" Relationship="Self.FK__CelularRe__Model__3B75D760" FromRole="CelularReparacion" ToRole="Modelo" />
+          <NavigationProperty Name="GarantiasReparacions" Relationship="Self.FK__Garantias__Celul__5629CD9C" FromRole="CelularReparacion" ToRole="GarantiasReparacion" />
+          <NavigationProperty Name="Reparaciones" Relationship="Self.FK__Reparacio__Celul__412EB0B6" FromRole="CelularReparacion" ToRole="Reparaciones" />
+        </EntityType>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="ClienteID" />
+          </Key>
+          <Property Name="ClienteID" Type="Int32" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Apellido" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Direccion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Telefono" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="CorreoElectronico" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Garantias" Relationship="Self.FK__Garantias__Clien__5165187F" FromRole="Clientes" ToRole="Garantias" />
+          <NavigationProperty Name="GarantiasReparacions" Relationship="Self.FK__Garantias__Clien__5535A963" FromRole="Clientes" ToRole="GarantiasReparacion" />
+          <NavigationProperty Name="Reparaciones" Relationship="Self.FK__Reparacio__Clien__403A8C7D" FromRole="Clientes" ToRole="Reparaciones" />
+          <NavigationProperty Name="Ventas" Relationship="Self.FK__Ventas__ClienteI__59063A47" FromRole="Clientes" ToRole="Ventas" />
+        </EntityType>
+        <EntityType Name="DetalleVenta">
+          <Key>
+            <PropertyRef Name="DetalleVentaID" />
+          </Key>
+          <Property Name="DetalleVentaID" Type="Int32" Nullable="false" />
+          <Property Name="ProductoID" Type="Int32" />
+          <Property Name="VentaID" Type="Int32" />
+          <NavigationProperty Name="Producto" Relationship="Self.FK__DetalleVe__Produ__5BE2A6F2" FromRole="DetalleVenta" ToRole="Productos" />
+          <NavigationProperty Name="Venta" Relationship="Self.FK__DetalleVe__Venta__5CD6CB2B" FromRole="DetalleVenta" ToRole="Ventas" />
+        </EntityType>
+        <EntityType Name="Empleado">
+          <Key>
+            <PropertyRef Name="EmpleadoID" />
+          </Key>
+          <Property Name="EmpleadoID" Type="Int32" Nullable="false" />
+          <Property Name="Nombre" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Apellido" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Puesto" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="FechaContratacion" Type="DateTime" Precision="0" />
+          <Property Name="Salario" Type="Decimal" Precision="10" Scale="2" />
+          <NavigationProperty Name="Reparaciones" Relationship="Self.FK__Reparacio__Emple__4222D4EF" FromRole="Empleados" ToRole="Reparaciones" />
+        </EntityType>
+        <EntityType Name="Garantia">
+          <Key>
+            <PropertyRef Name="GarantiaID" />
+          </Key>
+          <Property Name="GarantiaID" Type="Int32" Nullable="false" />
+          <Property Name="ClienteID" Type="Int32" />
+          <Property Name="ProductoID" Type="Int32" />
+          <Property Name="FechaInicio" Type="DateTime" Precision="0" />
+          <Property Name="FechaVencimiento" Type="DateTime" Precision="0" />
+          <Property Name="DescripcionGarantia" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Cliente" Relationship="Self.FK__Garantias__Clien__5165187F" FromRole="Garantias" ToRole="Clientes" />
+          <NavigationProperty Name="Producto" Relationship="Self.FK__Garantias__Produ__52593CB8" FromRole="Garantias" ToRole="Productos" />
+        </EntityType>
+        <EntityType Name="GarantiasReparacion">
+          <Key>
+            <PropertyRef Name="GarantiaReparacionID" />
+          </Key>
+          <Property Name="GarantiaReparacionID" Type="Int32" Nullable="false" />
+          <Property Name="ClienteID" Type="Int32" />
+          <Property Name="CelularReparacionID" Type="Int32" />
+          <Property Name="FechaInicio" Type="DateTime" Precision="0" />
+          <Property Name="FechaVencimiento" Type="DateTime" Precision="0" />
+          <Property Name="DescripcionGarantia" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CelularReparacion" Relationship="Self.FK__Garantias__Celul__5629CD9C" FromRole="GarantiasReparacion" ToRole="CelularReparacion" />
+          <NavigationProperty Name="Cliente" Relationship="Self.FK__Garantias__Clien__5535A963" FromRole="GarantiasReparacion" ToRole="Clientes" />
+        </EntityType>
+        <EntityType Name="Inventario">
+          <Key>
+            <PropertyRef Name="InventarioID" />
+          </Key>
+          <Property Name="InventarioID" Type="Int32" Nullable="false" />
+          <Property Name="ProductoID" Type="Int32" />
+          <Property Name="ProveedorID" Type="Int32" />
+          <Property Name="PrecioCompra" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="CantidadInventario" Type="Int32" />
+          <NavigationProperty Name="Producto" Relationship="Self.FK__Inventari__Produ__4AB81AF0" FromRole="Inventario" ToRole="Productos" />
+          <NavigationProperty Name="Proveedore" Relationship="Self.FK__Inventari__Prove__49C3F6B7" FromRole="Inventario" ToRole="Proveedores" />
+        </EntityType>
+        <EntityType Name="MetodoPago">
+          <Key>
+            <PropertyRef Name="MetodoPagoID" />
+          </Key>
+          <Property Name="MetodoPagoID" Type="Int32" Nullable="false" />
+          <Property Name="TipoMetodoPago" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Pagos" Relationship="Self.FK__Pagos__MetodoPag__628FA481" FromRole="MetodoPago" ToRole="Pagos" />
+        </EntityType>
+        <EntityType Name="Modelo">
+          <Key>
+            <PropertyRef Name="ModeloID" />
+          </Key>
+          <Property Name="ModeloID" Type="Int32" Nullable="false" />
+          <Property Name="Marca" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="NombreModelo" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CelularReparacions" Relationship="Self.FK__CelularRe__Model__3B75D760" FromRole="Modelo" ToRole="CelularReparacion" />
+          <NavigationProperty Name="Productos" Relationship="Self.FK__Productos__Model__46E78A0C" FromRole="Modelo" ToRole="Productos" />
+        </EntityType>
+        <EntityType Name="Pago">
+          <Key>
+            <PropertyRef Name="PagoID" />
+          </Key>
+          <Property Name="PagoID" Type="Int32" Nullable="false" />
+          <Property Name="VentaID" Type="Int32" />
+          <Property Name="MetodoPagoID" Type="Int32" />
+          <Property Name="FechaPago" Type="DateTime" Precision="0" />
+          <Property Name="MontoPago" Type="Decimal" Precision="10" Scale="2" />
+          <NavigationProperty Name="MetodoPago" Relationship="Self.FK__Pagos__MetodoPag__628FA481" FromRole="Pagos" ToRole="MetodoPago" />
+          <NavigationProperty Name="Venta" Relationship="Self.FK__Pagos__VentaID__619B8048" FromRole="Pagos" ToRole="Ventas" />
+        </EntityType>
+        <EntityType Name="ProductoReparacion">
+          <Key>
+            <PropertyRef Name="ProductoReparacionID" />
+          </Key>
+          <Property Name="ProductoReparacionID" Type="Int32" Nullable="false" />
+          <Property Name="ProductoID" Type="Int32" />
+          <Property Name="ReparacionID" Type="Int32" />
+          <NavigationProperty Name="Producto" Relationship="Self.FK__ProductoR__Produ__4D94879B" FromRole="ProductoReparacion" ToRole="Productos" />
+          <NavigationProperty Name="Reparacione" Relationship="Self.FK__ProductoR__Repar__4E88ABD4" FromRole="ProductoReparacion" ToRole="Reparaciones" />
+        </EntityType>
+        <EntityType Name="Producto">
+          <Key>
+            <PropertyRef Name="ProductoID" />
+          </Key>
+          <Property Name="ProductoID" Type="Int32" Nullable="false" />
+          <Property Name="ModeloID" Type="Int32" />
+          <Property Name="NombreProducto" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="PrecioVenta" Type="Decimal" Precision="10" Scale="2" />
+          <NavigationProperty Name="DetalleVentas" Relationship="Self.FK__DetalleVe__Produ__5BE2A6F2" FromRole="Productos" ToRole="DetalleVenta" />
+          <NavigationProperty Name="Garantias" Relationship="Self.FK__Garantias__Produ__52593CB8" FromRole="Productos" ToRole="Garantias" />
+          <NavigationProperty Name="Inventarios" Relationship="Self.FK__Inventari__Produ__4AB81AF0" FromRole="Productos" ToRole="Inventario" />
+          <NavigationProperty Name="Modelo" Relationship="Self.FK__Productos__Model__46E78A0C" FromRole="Productos" ToRole="Modelo" />
+          <NavigationProperty Name="ProductoReparacions" Relationship="Self.FK__ProductoR__Produ__4D94879B" FromRole="Productos" ToRole="ProductoReparacion" />
+        </EntityType>
+        <EntityType Name="Proveedore">
+          <Key>
+            <PropertyRef Name="ProveedorID" />
+          </Key>
+          <Property Name="ProveedorID" Type="Int32" Nullable="false" />
+          <Property Name="NombreProveedor" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="TelefonoProveedor" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="CorreoElectronicoProveedor" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Inventarios" Relationship="Self.FK__Inventari__Prove__49C3F6B7" FromRole="Proveedores" ToRole="Inventario" />
+        </EntityType>
+        <EntityType Name="Reparacione">
+          <Key>
+            <PropertyRef Name="ReparacionID" />
+          </Key>
+          <Property Name="ReparacionID" Type="Int32" Nullable="false" />
+          <Property Name="ClienteID" Type="Int32" />
+          <Property Name="CelularReparacionID" Type="Int32" />
+          <Property Name="EmpleadoID" Type="Int32" />
+          <Property Name="FechaIngreso" Type="DateTime" Precision="0" />
+          <Property Name="ProblemaReportado" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="EstadoReparacion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="CostoReparacion" Type="Decimal" Precision="10" Scale="2" />
+          <NavigationProperty Name="CelularReparacion" Relationship="Self.FK__Reparacio__Celul__412EB0B6" FromRole="Reparaciones" ToRole="CelularReparacion" />
+          <NavigationProperty Name="Cliente" Relationship="Self.FK__Reparacio__Clien__403A8C7D" FromRole="Reparaciones" ToRole="Clientes" />
+          <NavigationProperty Name="Empleado" Relationship="Self.FK__Reparacio__Emple__4222D4EF" FromRole="Reparaciones" ToRole="Empleados" />
+          <NavigationProperty Name="ProductoReparacions" Relationship="Self.FK__ProductoR__Repar__4E88ABD4" FromRole="Reparaciones" ToRole="ProductoReparacion" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Venta">
+          <Key>
+            <PropertyRef Name="VentaID" />
+          </Key>
+          <Property Name="VentaID" Type="Int32" Nullable="false" />
+          <Property Name="ClienteID" Type="Int32" />
+          <Property Name="FechaVenta" Type="DateTime" Precision="0" />
+          <Property Name="PrecioVenta" Type="Decimal" Precision="10" Scale="2" />
+          <NavigationProperty Name="Cliente" Relationship="Self.FK__Ventas__ClienteI__59063A47" FromRole="Ventas" ToRole="Clientes" />
+          <NavigationProperty Name="DetalleVentas" Relationship="Self.FK__DetalleVe__Venta__5CD6CB2B" FromRole="Ventas" ToRole="DetalleVenta" />
+          <NavigationProperty Name="Pagos" Relationship="Self.FK__Pagos__VentaID__619B8048" FromRole="Ventas" ToRole="Pagos" />
+        </EntityType>
+        <Association Name="FK__CelularRe__Model__3B75D760">
+          <End Role="Modelo" Type="Self.Modelo" Multiplicity="0..1" />
+          <End Role="CelularReparacion" Type="Self.CelularReparacion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Modelo">
+              <PropertyRef Name="ModeloID" />
+            </Principal>
+            <Dependent Role="CelularReparacion">
+              <PropertyRef Name="ModeloID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Garantias__Celul__5629CD9C">
+          <End Role="CelularReparacion" Type="Self.CelularReparacion" Multiplicity="0..1" />
+          <End Role="GarantiasReparacion" Type="Self.GarantiasReparacion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CelularReparacion">
+              <PropertyRef Name="CelularReparacionID" />
+            </Principal>
+            <Dependent Role="GarantiasReparacion">
+              <PropertyRef Name="CelularReparacionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Reparacio__Celul__412EB0B6">
+          <End Role="CelularReparacion" Type="Self.CelularReparacion" Multiplicity="0..1" />
+          <End Role="Reparaciones" Type="Self.Reparacione" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CelularReparacion">
+              <PropertyRef Name="CelularReparacionID" />
+            </Principal>
+            <Dependent Role="Reparaciones">
+              <PropertyRef Name="CelularReparacionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Garantias__Clien__5165187F">
+          <End Role="Clientes" Type="Self.Cliente" Multiplicity="0..1" />
+          <End Role="Garantias" Type="Self.Garantia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="ClienteID" />
+            </Principal>
+            <Dependent Role="Garantias">
+              <PropertyRef Name="ClienteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Garantias__Clien__5535A963">
+          <End Role="Clientes" Type="Self.Cliente" Multiplicity="0..1" />
+          <End Role="GarantiasReparacion" Type="Self.GarantiasReparacion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="ClienteID" />
+            </Principal>
+            <Dependent Role="GarantiasReparacion">
+              <PropertyRef Name="ClienteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Reparacio__Clien__403A8C7D">
+          <End Role="Clientes" Type="Self.Cliente" Multiplicity="0..1" />
+          <End Role="Reparaciones" Type="Self.Reparacione" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="ClienteID" />
+            </Principal>
+            <Dependent Role="Reparaciones">
+              <PropertyRef Name="ClienteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Ventas__ClienteI__59063A47">
+          <End Role="Clientes" Type="Self.Cliente" Multiplicity="0..1" />
+          <End Role="Ventas" Type="Self.Venta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="ClienteID" />
+            </Principal>
+            <Dependent Role="Ventas">
+              <PropertyRef Name="ClienteID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DetalleVe__Produ__5BE2A6F2">
+          <End Role="Productos" Type="Self.Producto" Multiplicity="0..1" />
+          <End Role="DetalleVenta" Type="Self.DetalleVenta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Productos">
+              <PropertyRef Name="ProductoID" />
+            </Principal>
+            <Dependent Role="DetalleVenta">
+              <PropertyRef Name="ProductoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DetalleVe__Venta__5CD6CB2B">
+          <End Role="Ventas" Type="Self.Venta" Multiplicity="0..1" />
+          <End Role="DetalleVenta" Type="Self.DetalleVenta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ventas">
+              <PropertyRef Name="VentaID" />
+            </Principal>
+            <Dependent Role="DetalleVenta">
+              <PropertyRef Name="VentaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Reparacio__Emple__4222D4EF">
+          <End Role="Empleados" Type="Self.Empleado" Multiplicity="0..1" />
+          <End Role="Reparaciones" Type="Self.Reparacione" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Empleados">
+              <PropertyRef Name="EmpleadoID" />
+            </Principal>
+            <Dependent Role="Reparaciones">
+              <PropertyRef Name="EmpleadoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Garantias__Produ__52593CB8">
+          <End Role="Productos" Type="Self.Producto" Multiplicity="0..1" />
+          <End Role="Garantias" Type="Self.Garantia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Productos">
+              <PropertyRef Name="ProductoID" />
+            </Principal>
+            <Dependent Role="Garantias">
+              <PropertyRef Name="ProductoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Inventari__Produ__4AB81AF0">
+          <End Role="Productos" Type="Self.Producto" Multiplicity="0..1" />
+          <End Role="Inventario" Type="Self.Inventario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Productos">
+              <PropertyRef Name="ProductoID" />
+            </Principal>
+            <Dependent Role="Inventario">
+              <PropertyRef Name="ProductoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Inventari__Prove__49C3F6B7">
+          <End Role="Proveedores" Type="Self.Proveedore" Multiplicity="0..1" />
+          <End Role="Inventario" Type="Self.Inventario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Proveedores">
+              <PropertyRef Name="ProveedorID" />
+            </Principal>
+            <Dependent Role="Inventario">
+              <PropertyRef Name="ProveedorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Pagos__MetodoPag__628FA481">
+          <End Role="MetodoPago" Type="Self.MetodoPago" Multiplicity="0..1" />
+          <End Role="Pagos" Type="Self.Pago" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MetodoPago">
+              <PropertyRef Name="MetodoPagoID" />
+            </Principal>
+            <Dependent Role="Pagos">
+              <PropertyRef Name="MetodoPagoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Productos__Model__46E78A0C">
+          <End Role="Modelo" Type="Self.Modelo" Multiplicity="0..1" />
+          <End Role="Productos" Type="Self.Producto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Modelo">
+              <PropertyRef Name="ModeloID" />
+            </Principal>
+            <Dependent Role="Productos">
+              <PropertyRef Name="ModeloID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Pagos__VentaID__619B8048">
+          <End Role="Ventas" Type="Self.Venta" Multiplicity="0..1" />
+          <End Role="Pagos" Type="Self.Pago" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ventas">
+              <PropertyRef Name="VentaID" />
+            </Principal>
+            <Dependent Role="Pagos">
+              <PropertyRef Name="VentaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductoR__Produ__4D94879B">
+          <End Role="Productos" Type="Self.Producto" Multiplicity="0..1" />
+          <End Role="ProductoReparacion" Type="Self.ProductoReparacion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Productos">
+              <PropertyRef Name="ProductoID" />
+            </Principal>
+            <Dependent Role="ProductoReparacion">
+              <PropertyRef Name="ProductoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ProductoR__Repar__4E88ABD4">
+          <End Role="Reparaciones" Type="Self.Reparacione" Multiplicity="0..1" />
+          <End Role="ProductoReparacion" Type="Self.ProductoReparacion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Reparaciones">
+              <PropertyRef Name="ReparacionID" />
+            </Principal>
+            <Dependent Role="ProductoReparacion">
+              <PropertyRef Name="ReparacionID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CELULARESEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CelularReparacions" EntityType="Self.CelularReparacion" />
+          <EntitySet Name="Clientes" EntityType="Self.Cliente" />
+          <EntitySet Name="DetalleVentas" EntityType="Self.DetalleVenta" />
+          <EntitySet Name="Empleados" EntityType="Self.Empleado" />
+          <EntitySet Name="Garantias" EntityType="Self.Garantia" />
+          <EntitySet Name="GarantiasReparacions" EntityType="Self.GarantiasReparacion" />
+          <EntitySet Name="Inventarios" EntityType="Self.Inventario" />
+          <EntitySet Name="MetodoPagoes" EntityType="Self.MetodoPago" />
+          <EntitySet Name="Modeloes" EntityType="Self.Modelo" />
+          <EntitySet Name="Pagos" EntityType="Self.Pago" />
+          <EntitySet Name="ProductoReparacions" EntityType="Self.ProductoReparacion" />
+          <EntitySet Name="Productos" EntityType="Self.Producto" />
+          <EntitySet Name="Proveedores" EntityType="Self.Proveedore" />
+          <EntitySet Name="Reparaciones" EntityType="Self.Reparacione" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+          <EntitySet Name="Ventas" EntityType="Self.Venta" />
+          <AssociationSet Name="FK__CelularRe__Model__3B75D760" Association="Self.FK__CelularRe__Model__3B75D760">
+            <End Role="Modelo" EntitySet="Modeloes" />
+            <End Role="CelularReparacion" EntitySet="CelularReparacions" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Garantias__Celul__5629CD9C" Association="Self.FK__Garantias__Celul__5629CD9C">
+            <End Role="CelularReparacion" EntitySet="CelularReparacions" />
+            <End Role="GarantiasReparacion" EntitySet="GarantiasReparacions" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Reparacio__Celul__412EB0B6" Association="Self.FK__Reparacio__Celul__412EB0B6">
+            <End Role="CelularReparacion" EntitySet="CelularReparacions" />
+            <End Role="Reparaciones" EntitySet="Reparaciones" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Garantias__Clien__5165187F" Association="Self.FK__Garantias__Clien__5165187F">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="Garantias" EntitySet="Garantias" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Garantias__Clien__5535A963" Association="Self.FK__Garantias__Clien__5535A963">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="GarantiasReparacion" EntitySet="GarantiasReparacions" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Reparacio__Clien__403A8C7D" Association="Self.FK__Reparacio__Clien__403A8C7D">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="Reparaciones" EntitySet="Reparaciones" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Ventas__ClienteI__59063A47" Association="Self.FK__Ventas__ClienteI__59063A47">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="Ventas" EntitySet="Ventas" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DetalleVe__Produ__5BE2A6F2" Association="Self.FK__DetalleVe__Produ__5BE2A6F2">
+            <End Role="Productos" EntitySet="Productos" />
+            <End Role="DetalleVenta" EntitySet="DetalleVentas" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DetalleVe__Venta__5CD6CB2B" Association="Self.FK__DetalleVe__Venta__5CD6CB2B">
+            <End Role="Ventas" EntitySet="Ventas" />
+            <End Role="DetalleVenta" EntitySet="DetalleVentas" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Reparacio__Emple__4222D4EF" Association="Self.FK__Reparacio__Emple__4222D4EF">
+            <End Role="Empleados" EntitySet="Empleados" />
+            <End Role="Reparaciones" EntitySet="Reparaciones" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Garantias__Produ__52593CB8" Association="Self.FK__Garantias__Produ__52593CB8">
+            <End Role="Productos" EntitySet="Productos" />
+            <End Role="Garantias" EntitySet="Garantias" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Inventari__Produ__4AB81AF0" Association="Self.FK__Inventari__Produ__4AB81AF0">
+            <End Role="Productos" EntitySet="Productos" />
+            <End Role="Inventario" EntitySet="Inventarios" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Inventari__Prove__49C3F6B7" Association="Self.FK__Inventari__Prove__49C3F6B7">
+            <End Role="Proveedores" EntitySet="Proveedores" />
+            <End Role="Inventario" EntitySet="Inventarios" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Pagos__MetodoPag__628FA481" Association="Self.FK__Pagos__MetodoPag__628FA481">
+            <End Role="MetodoPago" EntitySet="MetodoPagoes" />
+            <End Role="Pagos" EntitySet="Pagos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Productos__Model__46E78A0C" Association="Self.FK__Productos__Model__46E78A0C">
+            <End Role="Modelo" EntitySet="Modeloes" />
+            <End Role="Productos" EntitySet="Productos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Pagos__VentaID__619B8048" Association="Self.FK__Pagos__VentaID__619B8048">
+            <End Role="Ventas" EntitySet="Ventas" />
+            <End Role="Pagos" EntitySet="Pagos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductoR__Produ__4D94879B" Association="Self.FK__ProductoR__Produ__4D94879B">
+            <End Role="Productos" EntitySet="Productos" />
+            <End Role="ProductoReparacion" EntitySet="ProductoReparacions" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ProductoR__Repar__4E88ABD4" Association="Self.FK__ProductoR__Repar__4E88ABD4">
+            <End Role="Reparaciones" EntitySet="Reparaciones" />
+            <End Role="ProductoReparacion" EntitySet="ProductoReparacions" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CELULARESModelStoreContainer" CdmEntityContainer="CELULARESEntities">
+          <EntitySetMapping Name="CelularReparacions">
+            <EntityTypeMapping TypeName="CELULARESModel.CelularReparacion">
+              <MappingFragment StoreEntitySet="CelularReparacion">
+                <ScalarProperty Name="CelularReparacionID" ColumnName="CelularReparacionID" />
+                <ScalarProperty Name="ModeloID" ColumnName="ModeloID" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="PrecioVenta" ColumnName="PrecioVenta" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Clientes">
+            <EntityTypeMapping TypeName="CELULARESModel.Cliente">
+              <MappingFragment StoreEntitySet="Clientes">
+                <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+                <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DetalleVentas">
+            <EntityTypeMapping TypeName="CELULARESModel.DetalleVenta">
+              <MappingFragment StoreEntitySet="DetalleVenta">
+                <ScalarProperty Name="DetalleVentaID" ColumnName="DetalleVentaID" />
+                <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+                <ScalarProperty Name="VentaID" ColumnName="VentaID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Empleados">
+            <EntityTypeMapping TypeName="CELULARESModel.Empleado">
+              <MappingFragment StoreEntitySet="Empleados">
+                <ScalarProperty Name="EmpleadoID" ColumnName="EmpleadoID" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+                <ScalarProperty Name="Puesto" ColumnName="Puesto" />
+                <ScalarProperty Name="FechaContratacion" ColumnName="FechaContratacion" />
+                <ScalarProperty Name="Salario" ColumnName="Salario" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Garantias">
+            <EntityTypeMapping TypeName="CELULARESModel.Garantia">
+              <MappingFragment StoreEntitySet="Garantias">
+                <ScalarProperty Name="GarantiaID" ColumnName="GarantiaID" />
+                <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+                <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+                <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+                <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+                <ScalarProperty Name="DescripcionGarantia" ColumnName="DescripcionGarantia" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GarantiasReparacions">
+            <EntityTypeMapping TypeName="CELULARESModel.GarantiasReparacion">
+              <MappingFragment StoreEntitySet="GarantiasReparacion">
+                <ScalarProperty Name="GarantiaReparacionID" ColumnName="GarantiaReparacionID" />
+                <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+                <ScalarProperty Name="CelularReparacionID" ColumnName="CelularReparacionID" />
+                <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+                <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+                <ScalarProperty Name="DescripcionGarantia" ColumnName="DescripcionGarantia" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Inventarios">
+            <EntityTypeMapping TypeName="CELULARESModel.Inventario">
+              <MappingFragment StoreEntitySet="Inventario">
+                <ScalarProperty Name="InventarioID" ColumnName="InventarioID" />
+                <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+                <ScalarProperty Name="ProveedorID" ColumnName="ProveedorID" />
+                <ScalarProperty Name="PrecioCompra" ColumnName="PrecioCompra" />
+                <ScalarProperty Name="CantidadInventario" ColumnName="CantidadInventario" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MetodoPagoes">
+            <EntityTypeMapping TypeName="CELULARESModel.MetodoPago">
+              <MappingFragment StoreEntitySet="MetodoPago">
+                <ScalarProperty Name="MetodoPagoID" ColumnName="MetodoPagoID" />
+                <ScalarProperty Name="TipoMetodoPago" ColumnName="TipoMetodoPago" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Modeloes">
+            <EntityTypeMapping TypeName="CELULARESModel.Modelo">
+              <MappingFragment StoreEntitySet="Modelo">
+                <ScalarProperty Name="ModeloID" ColumnName="ModeloID" />
+                <ScalarProperty Name="Marca" ColumnName="Marca" />
+                <ScalarProperty Name="NombreModelo" ColumnName="NombreModelo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Pagos">
+            <EntityTypeMapping TypeName="CELULARESModel.Pago">
+              <MappingFragment StoreEntitySet="Pagos">
+                <ScalarProperty Name="PagoID" ColumnName="PagoID" />
+                <ScalarProperty Name="VentaID" ColumnName="VentaID" />
+                <ScalarProperty Name="MetodoPagoID" ColumnName="MetodoPagoID" />
+                <ScalarProperty Name="FechaPago" ColumnName="FechaPago" />
+                <ScalarProperty Name="MontoPago" ColumnName="MontoPago" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductoReparacions">
+            <EntityTypeMapping TypeName="CELULARESModel.ProductoReparacion">
+              <MappingFragment StoreEntitySet="ProductoReparacion">
+                <ScalarProperty Name="ProductoReparacionID" ColumnName="ProductoReparacionID" />
+                <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+                <ScalarProperty Name="ReparacionID" ColumnName="ReparacionID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Productos">
+            <EntityTypeMapping TypeName="CELULARESModel.Producto">
+              <MappingFragment StoreEntitySet="Productos">
+                <ScalarProperty Name="ProductoID" ColumnName="ProductoID" />
+                <ScalarProperty Name="ModeloID" ColumnName="ModeloID" />
+                <ScalarProperty Name="NombreProducto" ColumnName="NombreProducto" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="PrecioVenta" ColumnName="PrecioVenta" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Proveedores">
+            <EntityTypeMapping TypeName="CELULARESModel.Proveedore">
+              <MappingFragment StoreEntitySet="Proveedores">
+                <ScalarProperty Name="ProveedorID" ColumnName="ProveedorID" />
+                <ScalarProperty Name="NombreProveedor" ColumnName="NombreProveedor" />
+                <ScalarProperty Name="TelefonoProveedor" ColumnName="TelefonoProveedor" />
+                <ScalarProperty Name="CorreoElectronicoProveedor" ColumnName="CorreoElectronicoProveedor" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Reparaciones">
+            <EntityTypeMapping TypeName="CELULARESModel.Reparacione">
+              <MappingFragment StoreEntitySet="Reparaciones">
+                <ScalarProperty Name="ReparacionID" ColumnName="ReparacionID" />
+                <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+                <ScalarProperty Name="CelularReparacionID" ColumnName="CelularReparacionID" />
+                <ScalarProperty Name="EmpleadoID" ColumnName="EmpleadoID" />
+                <ScalarProperty Name="FechaIngreso" ColumnName="FechaIngreso" />
+                <ScalarProperty Name="ProblemaReportado" ColumnName="ProblemaReportado" />
+                <ScalarProperty Name="EstadoReparacion" ColumnName="EstadoReparacion" />
+                <ScalarProperty Name="CostoReparacion" ColumnName="CostoReparacion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="CELULARESModel.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ventas">
+            <EntityTypeMapping TypeName="CELULARESModel.Venta">
+              <MappingFragment StoreEntitySet="Ventas">
+                <ScalarProperty Name="VentaID" ColumnName="VentaID" />
+                <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+                <ScalarProperty Name="FechaVenta" ColumnName="FechaVenta" />
+                <ScalarProperty Name="PrecioVenta" ColumnName="PrecioVenta" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
